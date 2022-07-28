@@ -1,6 +1,8 @@
 import './App.css';
 import Profile from './Components/Profile/Profile';
 import Repos from './Components/Repos/Repos';
+//import Profile from './Components/Profile/Profile';
+//import Repos from './Components/Repos/Repos';
 import SearchBar from './Components/SearchBar/SeachBar';
 import SearchProvider from './Context/SearchContext';
 
@@ -9,8 +11,8 @@ function App() {
     <>
       <SearchProvider>
         <SearchBar />
-        <Profile />
-        <Repos />
+        <Profile/>
+        <Repos/>
       </SearchProvider>
     </>
   );
